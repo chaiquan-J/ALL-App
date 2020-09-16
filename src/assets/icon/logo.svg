@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>矩形</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" fill="#1876FF" x="0" y="0" width="120" height="120" rx="26"></rect>
+        <g id="ALL" transform="translate(30.000000, 32.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M20.7291313,55.2809572 L20.7291313,29.9436063 L9.21251072,29.9436063 L9.21251072,55.2809572 L0,55.2809572 L0,0 L29.941642,0 L29.941642,55.2809572 L20.7291313,55.2809572 Z M36.8520072,0 L46.0645179,0 L46.0645179,55.2809572 L36.8520072,55.2809572 L36.8520072,0 Z M50.6727375,0 L59.8852483,0 L59.8852483,55.2809572 L50.6727375,55.2809572 L50.6727375,0 Z M9.21251072,9.21251072 L9.21251072,20.7291313 L20.7291313,20.7291313 L20.7291313,9.21251072 L9.21251072,9.21251072 Z" id="形状"></path>
+        </g>
+        <rect id="矩形" fill="#FF8800" transform="translate(60.000000, 60.000000) rotate(70.000000) translate(-60.000000, -60.000000) " x="59" y="28" width="2" height="64" rx="1"></rect>
+    </g>
+</svg>
