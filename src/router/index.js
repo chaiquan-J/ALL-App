@@ -5,13 +5,18 @@ Vue.use(VueRouter)
 
 const routes = [{
 		path: '/start',
-		name: 'Start',
+		name: 'start',
 		component: () => import('../views/start.vue')
 	},
 	{
 		path: '/',
-		name: 'Guidance',
+		name: 'guidance',
 		component: () => import('../views/guidance.vue')
+	},
+	{
+		path: '/guidancevoice',
+		name: 'guidancevoice',
+		component: () => import('../views/guidancevoice.vue')
 	}
 ]
 
