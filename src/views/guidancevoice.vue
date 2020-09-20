@@ -8,7 +8,7 @@
 					<span>
 						NIce to meet you
 						<div class="icon">
-							<img src="../assets/icon/voice.png" alt="">
+							<img src="../assets/icon/phonate.png" alt="">
 						</div>
 					</span>
 				</div>
@@ -30,7 +30,7 @@ export default {
 	},
 	methods: {
 		navHome() {
-			this.$router.push('');
+			this.$router.push('word');
 		}
 	}
 };

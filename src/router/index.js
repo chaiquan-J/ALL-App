@@ -9,7 +9,7 @@ const routes = [{
 		component: () => import('../views/start.vue')
 	},
 	{
-		path: '/',
+		path: '/guidance',
 		name: 'guidance',
 		component: () => import('../views/guidance.vue')
 	},
@@ -17,6 +17,26 @@ const routes = [{
 		path: '/guidancevoice',
 		name: 'guidancevoice',
 		component: () => import('../views/guidancevoice.vue')
+	},
+	{
+		path: '/',
+		name: 'word',
+		component: () => import('../views/word.vue')
+	},
+	{
+		path: '/course',
+		name: 'course',
+		component: () => import('../views/course.vue')
+	},
+	{
+		path: '/discover',
+		name: 'discover',
+		component: () => import('../views/discover.vue')
+	},
+	{
+		path: '/my',
+		name: 'my',
+		component: () => import('../views/my.vue')
 	}
 ]
 
