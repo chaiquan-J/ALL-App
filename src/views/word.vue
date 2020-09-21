@@ -36,22 +36,11 @@
 						</div>
 					</div>
 					<div class="vocabulary_book"><img src="../assets/img/home/schedule.png" alt="" /></div>
-					<div class="mission_box">
-						<span>今日任务</span>
-						<div></div>
-						<van-button round type="primary">开始学习</van-button>
-					</div>
+					<!-- 今日任务 -->
+					<mission></mission>
 				</div>
-				<div class="bottom_nav">
-					<van-grid class="nav_grid" :border="false" :column-num="5">
-						<van-grid-item v-for="value in 5" :key="value">
-							<div class="cont_box">
-								<img src="../assets/icon/hearing.png" alt="" />
-								<span>听力</span>
-							</div>
-						</van-grid-item>
-					</van-grid>
-				</div>
+				<!-- 底部分类导航 -->
+				<bot-nav></bot-nav>
 			</div>
 			<div class="bg_color"></div>
 		</div>
@@ -61,15 +50,42 @@
 
 <script>
 import TabBar from '@/components/tabbar.vue';
+import BotNav from '@/components/word/BotNav.vue';
+import Mission from '@/components/word/mission.vue';
+
 export default {
 	data() {
 		return {
-			value: ''
+			value: '',
+			nav: [
+				{
+					title: '听力',
+					src: require('../assets/icon/hearing.png')
+				},
+				{
+					title: '阅读',
+					src: require('../assets/icon/read.png')
+				},
+				{
+					title: '对战',
+					src: require('../assets/icon/fight.png')
+				},
+				{
+					title: '随身听',
+					src: require('../assets/icon/Walkman.png')
+				},
+				{
+					title: '短信',
+					src: require('../assets/icon/note.png')
+				}
+			]
 		};
 	},
 	methods: {},
 	components: {
-		TabBar
+		TabBar,
+		BotNav,
+		Mission
 	}
 };
 </script>
@@ -166,7 +182,7 @@ export default {
 			z-index: 10;
 
 			.cent_box {
-				height: 393px;
+				height: 420px;
 				width: 100%;
 				// background-color: #fff;
 				display: flex;
@@ -256,46 +272,6 @@ export default {
 					img {
 						height: 100%;
 						width: 100%;
-					}
-				}
-				
-				.mission_box{
-					height: auto;
-					width: 335px;
-					display: flex;
-					flex-direction: column;
-				}
-			}
-
-			.bottom_nav {
-				height: 57px;
-				width: 100%;
-				background-color: #fff;
-				border-top: 6.5px solid #e2e4ea;
-				border-bottom: 6.5px solid #e2e4ea;
-
-				.nav_grid {
-					height: 100%;
-					width: 100%;
-
-					.cont_box {
-						height: 100%;
-						display: flex;
-						flex-direction: column;
-						justify-content: center;
-						align-items: center;
-
-						img {
-							width: 25px;
-							height: 20px;
-							margin-bottom: 8px;
-						}
-
-						span {
-							font-family: 'PingFangSC-Medium';
-							font-size: 10px;
-							color: #41485d;
-						}
 					}
 				}
 			}

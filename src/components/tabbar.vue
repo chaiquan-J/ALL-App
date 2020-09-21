@@ -28,14 +28,14 @@ export default {
 					img: require('../assets/icon/home.png'),
 					active: require('../assets/icon/home-active.png'),
 					name: '单词',
-					path: '/',
+					path: '/word',
 					exact:'exact'
 				},
 				{
 					img: require('../assets/icon/course.png'),
 					active: require('../assets/icon/course-active.png'),
 					name: '课程',
-					path: '/course',
+					path: '/',
 					exact:''
 				},
 				{

@@ -19,12 +19,12 @@ const routes = [{
 		component: () => import('../views/guidancevoice.vue')
 	},
 	{
-		path: '/',
+		path: '/word',
 		name: 'word',
 		component: () => import('../views/word.vue')
 	},
 	{
-		path: '/course',
+		path: '/',
 		name: 'course',
 		component: () => import('../views/course.vue')
 	},
