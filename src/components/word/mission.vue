@@ -15,7 +15,7 @@
 				<span>未学单词</span>
 			</div>
 		</div>
-		<van-button class="mission_btn" color="#1876FF" round type="primary">开始学习</van-button>
+		<van-button class="mission_btn" color="#1876FF" hairline round type="primary">开始学习</van-button>
 	</div>
 </template>
 
@@ -31,17 +31,17 @@ export default {
 <style lang="less" scoped>
 .mission_box {
 	height: auto;
-	width: 335px;
+	width: 670px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 
 	.title_box {
 		font-family: 'PingFangSC-Regular';
-		font-size: 10px;
+		font-size: 20px;
 		color: #41485d;
-		margin-top: 36.5px;
-		margin-bottom: 20.5px;
+		margin-top: 73px;
+		margin-bottom: 41px;
 	}
 
 	.cont_box {
@@ -50,44 +50,41 @@ export default {
 		// background-color: #a2f0ff;
 		display: flex;
 		justify-content: center;
-		margin-bottom: 27px;
-
-		.option_box:nth-child(1) {
-			margin-right: 75px;
-		}
+		margin-bottom: 47px;
 
 		.option_box:nth-child(2) {
-			margin-right: 75px;
+			margin-left: 175px;
+			margin-right: 150px;
 		}
 
 		.option_box {
 			height: auto;
-			width: 50px;
+			width: auto;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
 
 			.hr {
-				height: 3px;
-				width: 40px;
+				height: 6px;
+				width: 66px;
 				background: #111a34;
-				margin-bottom: 20px;
+				margin-bottom: 30px;
 			}
 
 			span {
 				font-family: 'PingFangSC-Regular';
-				font-size: 10px;
+				font-size: 20px;
 				color: #41485d;
 			}
 		}
 	}
 
 	.mission_btn {
-		height: 40px;
-		width: 174.5px;
-		font-size: 15px;
-		border: 1px solid #e2e4ea;
-		box-shadow: 0px 2.5px 2.5px #1876ff;
+		height: 85px;
+		width: 349px;
+		font-size: 30px;
+		border-color: #e2e4ea !important;
+		box-shadow: 0px 5px 5px #1876ff;
 	}
 }
 </style>

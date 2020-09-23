@@ -46,33 +46,42 @@ export default {
 
 <style lang="less">
 .course {
+	.navbar{
+		.van-nav-bar{
+			height: 88px !important;
+		}
+	}
+	
 	.top_tab {
+		.van-tabs__wrap{
+			height: 102px !important;
+		}
+		
 		.van-tab {
 			font-family: 'PingFangSC-Regular';
-			font-size: 12px;
+			font-size: 24px;
 			color: #333333;
 			text-align: center;
 		}
 
 		.van-tab--active {
 			font-family: 'PingFangSC-Semibold';
-			font-size: 15px;
+			font-size: 30px;
 			font-weight: 700;
 			color: #1876ff;
 		}
+		
+		.van-tab__text{
+			overflow: visible;
+		}
 
 		.van-tabs__line {
-			height: 2.5px;
-			width: 20.5px;
+			height: 6px;
+			width: 41px;
 			background: #1876ff;
-			box-shadow: 0 1px 1px 0 #1876ff;
+			box-shadow: 0 2px 2px #1876ff;
 			border-radius: 2px;
-			border-radius: 2px;
-			bottom: 20px;
-		}
-		
-		.van-tabs__content{
-			margin-top: 7px;
+			bottom: 30px;
 		}
 	}
 }
@@ -101,9 +110,12 @@ export default {
 		}
 
 		.navbar {
+			height: 88px !important;
+			width: 100%;
+			
 			span {
 				font-family: 'PingFangSC-Medium';
-				font-size: 18px;
+				font-size: 36px;
 				color: #111a34;
 				font-weight: 600;
 				text-align: center;
@@ -111,7 +123,7 @@ export default {
 		}
 
 		.top_tab {
-			height: 51px;
+			height: 102px !important;
 			width: 100%;
 			background-color: #ffffff;
 			position: relative;

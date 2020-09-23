@@ -60,13 +60,13 @@ export default {
 
 <style lang="less" scoped>
 .hot_top {
-	height: 435px;
+	height: 850px;
 	width: 100%;
-	border-bottom: 3.5px solid #e2e4ea;
+	border-bottom: 7px solid #e2e4ea;
 
 	.content {
 		height: 100%;
-		width: 335px;
+		width: 670px;
 		margin: 0 auto;
 		display: flex;
 		flex-direction: column;
@@ -76,22 +76,22 @@ export default {
 			width: auto;
 			display: flex;
 			align-items: center;
-			margin-top: 18px;
-			margin-bottom: 14px;
+			margin-top: 36px;
+			margin-bottom: 28px;
 
 			img {
-				height: 18px;
-				width: 18px;
+				height: 36px;
+				width: 36px;
 				border-radius: 50px;
 			}
 
 			span {
 				font-family: 'PingFangSC-Medium';
-				font-size: 12px;
+				font-size: 24px;
 				color: #333333;
 				font-weight: 600;
 				text-align: center;
-				margin-left: 9px;
+				margin-left: 18px;
 			}
 		}
 
@@ -100,17 +100,17 @@ export default {
 		}
 
 		.cont_box {
-			height: 118px;
+			height: 235px;
 			width: 100%;
 			display: flex;
 			border-bottom: 1px solid #eeeeee;
-			margin-bottom: 7px;
+			margin-bottom: 10px;
 
 			.left_box {
-				height: 112.5px;
-				width: 110px;
+				height: 225px;
+				width: 220px;
 				overflow: hidden;
-				margin-right: 6.5px;
+				margin-right: 13px;
 
 				img {
 					height: 100%;
@@ -119,48 +119,48 @@ export default {
 			}
 
 			.right_box {
-				height: 112.5px;
-				width: 227px;
+				height: 225px;
+				width: 454px;
 				display: flex;
 				flex-direction: column;
 				text-align: left;
 
 				.title {
-					height: 24px;
+					height: auto;
 					width: 100%;
 					font-family: 'PingFangSC-Regular';
-					font-size: 16.5px;
+					font-size: 33px;
 					font-weight: 400;
 					color: #111a34;
-					margin-top: 12.5px;
+					margin-top: 25px;
 				}
 
 				.desc {
-					width: 203.5px;
-					height: 41.5px;
+					width: 430px;
+					height: 85px;
 					font-family: 'PingFangSC-Regular';
 					font-weight: 400;
-					font-size: 10px;
+					font-size: 20px;
 					color: #c5cad5;
-					margin-top: 10px;
+					margin-top: 30px;
 				}
 
 				.price {
-					height: 14px;
+					height: 28px;
 					width: auto;
 					display: flex;
 
 					span:nth-child(1) {
 						font-family: 'PingFangSC-Medium';
-						font-size: 10px;
+						font-size: 20px;
 						font-weight: 600;
 						color: #1876ff;
-						margin-right: 10px;
+						margin-right: 20px;
 					}
 
 					span:nth-child(2) {
 						font-family: 'PingFangSC-Regular';
-						font-size: 10px;
+						font-size: 20px;
 						font-weight: 400;
 						color: #999999;
 					}

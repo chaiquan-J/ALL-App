@@ -93,17 +93,21 @@ export default {
 <style lang="less">
 .word {
 	.search_box {
+		.van-search{
+			padding-left: 20px !important;
+		}
+		
 		.van-search__content {
 			flex: 0;
 			// width: 100px !important;
 			
 			.van-cell {
 				height: 70px;
-				width: 600px !important;
+				width: 625px !important;
 				line-height: 60px;
 
 				.van-field__body {
-					font-size: 30px !important;
+					font-size: 25px !important;
 				}
 			}
 		}
@@ -147,6 +151,8 @@ export default {
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					margin-left: 15px;
+					margin-right: 5px;
 
 					img {
 						height: 35px;
@@ -160,24 +166,25 @@ export default {
 					display: flex;
 					align-items: center;
 					justify-content: center;
+					margin-right: 15px;
 
 					img {
-						height: 20px;
-						width: 20px;
+						height: 35px;
+						width: 35px;
 					}
 				}
 
 				.action {
 					height: 100%;
-					width: 30px;
+					width: auto;
 					display: flex;
 					align-items: center;
 					justify-content: center;
-
+					margin-left: 15px;
+					
 					img {
 						height: 38px;
 						width: 33px;
-						margin-left: 30px;
 					}
 				}
 			}
@@ -186,9 +193,8 @@ export default {
 		.advertising {
 			position: relative;
 			z-index: 10;
-			height: 57.5px;
+			height: 115px;
 			width: 100%;
-			margin-top: 5.5px;
 
 			img {
 				height: 100%;
@@ -203,7 +209,7 @@ export default {
 			z-index: 10;
 
 			.cent_box {
-				height: 420px;
+				height: 786px;
 				width: 100%;
 				// background-color: #fff;
 				display: flex;
@@ -211,8 +217,8 @@ export default {
 				align-items: center;
 
 				.hi_box {
-					height: 85px;
-					width: 300.5px;
+					height: 150px;
+					width: 601px;
 					display: flex;
 					align-items: flex-end;
 					justify-content: space-between;
@@ -227,15 +233,15 @@ export default {
 						span:nth-child(1) {
 							display: block;
 							font-family: 'PingFangSC-Regular';
-							font-size: 50px;
+							font-size: 100px;
 							color: #000016;
-							line-height: 40px;
+							line-height: 85px;
 						}
 
 						span:nth-child(2) {
 							display: block;
 							font-family: 'PingFangSC-Regular';
-							font-size: 25px;
+							font-size: 50px;
 							color: #000016;
 							margin-left: 15px;
 						}
@@ -253,42 +259,42 @@ export default {
 							width: auto;
 
 							span {
-								font-size: 10px;
+								font-size: 20px;
 								font-family: 'PingFangSC-Regular';
 								color: #41485d;
 							}
 
 							img {
-								height: 9.5px;
-								width: 10px;
-								margin-right: 7.5px;
+								height: 19px;
+								width: 20px;
+								margin-right: 15px;
 							}
 						}
 
 						.calendar_box {
 							height: auto;
 							width: auto;
-							margin-left: 20px;
+							margin-left: 40px;
 
 							span {
-								font-size: 10px;
+								font-size: 20px;
 								font-family: 'PingFangSC-Regular';
 								color: #41485d;
 							}
 
 							img {
-								height: 8.5px;
-								width: 10px;
-								margin-right: 7.5px;
+								height: 18px;
+								width: 23px;
+								margin-right: 15px;
 							}
 						}
 					}
 				}
 
 				.vocabulary_book {
-					height: 88px;
-					width: 335px;
-					margin-top: 47px;
+					height: 176px;
+					width: 670px;
+					margin-top: 94px;
 
 					img {
 						height: 100%;
