@@ -2,8 +2,8 @@
 	<div class="heart_choose">
 		<div class="content">
 			<div class="title_box">
-				<img src="../../../assets/icon/recommend.png" alt="" />
-				<span>ALL心选</span>
+				<img :src="icon" alt="" />
+				<span>{{title}}</span>
 			</div>
 			<div class="shopp_box">
 				<template v-for="(item,index) in shopp">
@@ -17,10 +17,10 @@
 							<div class="price">
 								<span>￥{{item.price1}}</span>
 								<span>
-									￥{{item.price2}}
+			 						￥{{item.price2}}
 									<van-divider />
 								</span>
-								<div class="tag">ALL抵用￥5</div>
+								<div class="tag" v-if="item.tag">ALL抵用￥5</div>
 							</div>
 						</template>
 					</div>
@@ -39,6 +39,7 @@ export default {
 					src: require('../../../assets/img/course/E8AF7139B15D6D5F1614817F5523E205.png'),
 					desc: '考研7天训练营|百日冲刺，助你一臂之力',
 					free: true,
+					tag:false,
 					price1: '',
 					price2: ''
 				},
@@ -46,6 +47,7 @@ export default {
 					src: require('../../../assets/img/course/11C763A98CBD4E411FB4DF957AB1DD46.png'),
 					desc: '考研英语训练营| - 站式学齐，来得及!',
 					free: false,
+					tag:true,
 					price1: 999,
 					price2: 1199
 				},
@@ -53,6 +55,7 @@ export default {
 					src: require('../../../assets/img/course/42B8D3CCEF7C87FCC9FB5A3BB0157667.png'),
 					desc: '考研7天训练营|百日冲刺，助你一臂之力',
 					free: false,
+					tag:true,
 					price1: 999,
 					price2: 199
 				},
@@ -60,21 +63,26 @@ export default {
 					src: require('../../../assets/img/course/07BD031DF5E34952CB29AD732CF8FBED.png'),
 					desc: '考研英语训练营| - 站式学齐，来得及!',
 					free: false,
+					tag:true,
 					price1: 999,
 					price2: 199
 				}
 			]
 		};
 	},
+	props:[
+		'title',
+		'icon',
+		'shopp'
+	],
 	methods: {}
 };
 </script>
 
 <style lang="less" scoped>
 .heart_choose {
-	height: 800px;
+	height: 815px;
 	width: 100%;
-	background-color: #fff;
 	border-bottom: 7px solid #e2e4ea;
 
 	.content {
@@ -123,12 +131,12 @@ export default {
 				flex-direction: column;
 				align-items: flex-start;
 				position: relative;
-				margin-bottom: 35px;
+				margin-bottom: 44px;
 
 				img {
 					height: 194px;
 					width: 100%;
-					margin-bottom: 6px;
+					margin-bottom: 11px;
 				}
 
 				.desc {

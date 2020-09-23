@@ -2,8 +2,8 @@
 	<div class="hot_top">
 		<div class="content">
 			<div class="title_box">
-				<img src="../../../assets/icon/recommend.png" alt="" />
-				<span>热销TOP</span>
+				<img :src="icon" alt="" />
+				<span>{{ title }}</span>
 			</div>
 			<template v-for="(item, index) in hot_top">
 				<div class="cont_box" :key="index">
@@ -11,13 +11,15 @@
 					<div class="right_box">
 						<div class="title">{{ item.title }}</div>
 						<div class="desc">{{ item.desc }}</div>
-						<div class="price">
-							<span>￥{{ item.price1 }}</span>
-							<span>
-								￥{{ item.price2 }}
-								<van-divider />
-							</span>
-						</div>
+						<template v-if="item.price">
+							<div class="price">
+								<span>￥{{ item.price1 }}</span>
+								<span>
+									￥{{ item.price2 }}
+									<van-divider />
+								</span>
+							</div>
+						</template>
 					</div>
 				</div>
 			</template>
@@ -54,7 +56,12 @@ export default {
 			]
 		};
 	},
-	methods: {}
+	props:[
+		'title',
+		'icon',
+		'hot_top'
+	],
+	methods: {},
 };
 </script>
 

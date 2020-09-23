@@ -2,10 +2,10 @@
 	<div class="top_print">
 		<div class="content">
 			<div class="title_box">
-				<img src="../../../assets/icon/odds.png" alt="" />
-				<span>ALLX生活国刊X中读</span>
+				<img :src="icon" alt="" />
+				<span>{{title}}</span>
 			</div>
-			<div class="cont_box"><img src="../../../assets/img/course/BDE8A6A6D611334440A048BCC2A04FEC.png" alt="" /></div>
+			<div class="cont_box"><img :src="img" alt="" /></div>
 		</div>
 	</div>
 </template>
@@ -18,13 +18,16 @@
 			}
 		},
 		methods:{
-		}
+		},
+		props:[
+			'title','icon','img'
+		]
 	}
 </script>
 
 <style lang="less" scoped>
 	.top_print {
-		height: 365px;
+		height: 338px;
 		width: 100%;
 		border-bottom: 7px solid #e2e4ea;
 	
@@ -40,8 +43,8 @@
 				width: auto;
 				display: flex;
 				align-items: center;
-				margin-top: 43px;
-				margin-bottom: 24px;
+				margin-top: 36px;
+				margin-bottom: 32px;
 	
 				img {
 					height: 36px;
