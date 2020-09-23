@@ -90,6 +90,27 @@ export default {
 };
 </script>
 
+<style lang="less">
+.word {
+	.search_box {
+		.van-search__content {
+			flex: 0;
+			// width: 100px !important;
+			
+			.van-cell {
+				height: 70px;
+				width: 600px !important;
+				line-height: 60px;
+
+				.van-field__body {
+					font-size: 30px !important;
+				}
+			}
+		}
+	}
+}
+</style>
+
 <style lang="less" scoped>
 .word {
 	height: 100%;
@@ -100,7 +121,7 @@ export default {
 		width: 100%;
 
 		.bg_color {
-			max-width: 375px; //按一倍图适配
+			max-width: 750px; //按一倍图适配
 			overflow: hidden;
 			height: 100%;
 			position: absolute;
@@ -118,18 +139,18 @@ export default {
 			width: 100%;
 
 			.search {
-				height: 45px;
+				height: 95px;
 
 				.left_icon {
 					height: 100%;
-					width: 20px;
+					width: auto;
 					display: flex;
 					align-items: center;
 					justify-content: center;
 
 					img {
-						height: 18px;
-						width: 18px;
+						height: 35px;
+						width: 35px;
 					}
 				}
 
@@ -154,9 +175,9 @@ export default {
 					justify-content: center;
 
 					img {
-						height: 20px;
-						width: 16.5px;
-						margin-right: 5px;
+						height: 38px;
+						width: 33px;
+						margin-left: 30px;
 					}
 				}
 			}

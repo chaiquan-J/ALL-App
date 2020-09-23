@@ -9,9 +9,14 @@ module.exports = {
 		loaderOptions: {
 			postcss: {
 				plugins: [
-					autoprefixer(),
+					// autoprefixer(),
 					pxtorem({
-						rootValue: 37.5,
+						// 1倍图
+						// rootValue: 37.5,
+						// minPixelValue:1,
+						// 2倍图
+						rootValue: 75,
+						minPixelValue: 2,
 						propList: ['*']
 					})
 				]

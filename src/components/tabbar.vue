@@ -28,14 +28,14 @@ export default {
 					img: require('../assets/icon/home.png'),
 					active: require('../assets/icon/home-active.png'),
 					name: '单词',
-					path: '/word',
+					path: '/',
 					exact:'exact'
 				},
 				{
 					img: require('../assets/icon/course.png'),
 					active: require('../assets/icon/course-active.png'),
 					name: '课程',
-					path: '/',
+					path: '/course',
 					exact:''
 				},
 				{
@@ -73,7 +73,7 @@ export default {
 		width: 100%;
 
 		.tab_cont {
-			height: 55px;
+			height: 110px;
 			width: 100%;
 			background-color: #fff;
 			position: fixed;
@@ -90,37 +90,37 @@ export default {
 
 				li:nth-child(1) {
 					img {
-						height: 20px;
-						width: 20px;
-						margin-top: 12px;
-						margin-bottom: 5px;
+						height: 40px;
+						width: 40px;
+						margin-top: 25px;
+						margin-bottom: 10px;
 					}
 				}
 
 				li:nth-child(2) {
 					img {
-						height: 20px;
-						width: 22.5px;
-						margin-top: 12px;
-						margin-bottom: 5px;
+						height: 42px;
+						width: 45px;
+						margin-top: 25px;
+						margin-bottom: 8px;
 					}
 				}
 
 				li:nth-child(3) {
 					img {
-						height: 15px;
-						width: 22px;
-						margin-top: 17.5px;
-						margin-bottom: 5px;
+						height: 30px;
+						width: 44px;
+						margin-top: 36px;
+						margin-bottom: 8px;
 					}
 				}
 				
 				li:nth-child(4) {
 					img {
-						height: 22px;
-						width: 22px;
-						margin-top: 10px;
-						margin-bottom: 5px;
+						height: 44px;
+						width: 44px;
+						margin-top: 22px;
+						margin-bottom: 8px;
 					}
 				}
 

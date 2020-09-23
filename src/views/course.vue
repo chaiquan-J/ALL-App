@@ -88,7 +88,7 @@ export default {
 		width: 100%;
 
 		.bg_color {
-			max-width: 375px; //按一倍图适配
+			max-width: 750px; //按一倍图适配
 			overflow: hidden;
 			height: 100%;
 			position: absolute;

@@ -129,7 +129,7 @@ export default {
 					height: 24px;
 					width: 100%;
 					font-family: 'PingFangSC-Regular';
-					font-size: 16px;
+					font-size: 16.5px;
 					font-weight: 400;
 					color: #111a34;
 					margin-top: 12.5px;
