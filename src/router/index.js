@@ -24,12 +24,12 @@ const routes = [{
 		component: () => import('../views/word.vue')
 	},
 	{
-		path: '/',
+		path: '/course',
 		name: 'course',
 		component: () => import('../views/course.vue')
 	},
 	{
-		path: '/discover',
+		path: '/',
 		name: 'discover',
 		component: () => import('../views/discover.vue')
 	},

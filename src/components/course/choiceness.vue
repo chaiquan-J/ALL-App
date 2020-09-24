@@ -25,10 +25,8 @@
 					<div class="cont_box"><img src="../../assets/img/course/IMG_0331(20200902-153640).png" alt="" /></div>
 				</div>
 			</div>
-			<!-- 分割线 -->
-			<div class="cut-off">
-				<van-divider :hairline="false">暂时就这么多噢~</van-divider>
-			</div>
+			<!-- 底线 -->
+			<baseline></baseline>
 		</div>
 	</div>
 </template>
@@ -37,7 +35,7 @@
 import HotTop from '@/components/course/choiceness/hottop.vue';
 import HeartChoose from '@/components/course/choiceness/HeartChoose.vue';
 import ToppPrint from '@/components/course/choiceness/ToppPrint.vue';
-import Discounts from '@/components/course/choiceness/discounts.vue';
+import Baseline from '@/components/Baseline.vue';
 
 export default {
 	data() {
@@ -229,7 +227,7 @@ export default {
 		HotTop,
 		HeartChoose,
 		ToppPrint,
-		Discounts
+		Baseline
 	}
 };
 </script>
@@ -250,16 +248,6 @@ export default {
 			position: relative;
 			background-color: #333333;
 			border-color: #333333;
-			right: 0px;
-			bottom: 29px;
-		}
-	}
-
-	.discounts {
-		.van-divider {
-			position: relative;
-			background-color: #999999;
-			border-color: #999999;
 			right: 0px;
 			bottom: 29px;
 		}
@@ -323,16 +311,6 @@ export default {
 					}
 				}
 			}
-		}
-		
-		.cut-off{
-			height: auto;
-			width: 670px;
-			margin: 0 auto;
-			margin-bottom: 49px;
-			font-family: "PingFangSC-Regular";
-			font-size: 20px;
-			color: #C5CAD5;
 		}
 	}
 }

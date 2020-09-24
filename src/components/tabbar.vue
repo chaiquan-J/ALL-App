@@ -35,14 +35,14 @@ export default {
 					img: require('../assets/icon/course.png'),
 					active: require('../assets/icon/course-active.png'),
 					name: '课程',
-					path: '/',
+					path: '/course',
 					exact:''
 				},
 				{
 					img: require('../assets/icon/discover.png'),
 					active: require('../assets/icon/discover-active.png'),
 					name: '发现',
-					path: '/discover',
+					path: '/',
 					exact:''
 				},
 				{
