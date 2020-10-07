@@ -414,7 +414,7 @@ export default {
 
 		// 每日一句
 		.sentence {
-			height: 297px;
+			height: 310px;
 			width: 100%;
 			border-top: 14px solid #e2e4ea;
 			border-bottom: 14px solid #e2e4ea;

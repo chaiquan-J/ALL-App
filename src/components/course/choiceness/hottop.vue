@@ -31,29 +31,29 @@
 export default {
 	data() {
 		return {
-			hot_top: [
-				{
-					title: '单词会员|柯林斯辞典全年免费',
-					desc: '单词随身听.上线!更多特权持续解锁!',
-					src: require('../../../assets/img/course/E0A7407B87D236C9528E3A6555E20573.png'),
-					price1: '98',
-					price2: '129'
-				},
-				{
-					title: '四六级训练营|考不过全额退',
-					desc: '适用于12月考试，Care服务 考不过全额退',
-					src: require('../../../assets/img/course/B72EB3CE4F9D30D577332122027C5B5E.png'),
-					price1: '140',
-					price2: '199'
-				},
-				{
-					title: 'ALL编程| Python体验课',
-					desc: '零基础学编程，每天20分钟，边学边练,闯关式学习高效有趣。',
-					src: require('../../../assets/img/course/7F8D1A3C1ACAAE51B4226067C6C6C0CF.png'),
-					price1: '6.9',
-					price2: '129'
-				}
-			]
+			// hot_top: [
+			// 	{
+			// 		title: '单词会员|柯林斯辞典全年免费',
+			// 		desc: '单词随身听.上线!更多特权持续解锁!',
+			// 		src: require('../../../assets/img/course/E0A7407B87D236C9528E3A6555E20573.png'),
+			// 		price1: '98',
+			// 		price2: '129'
+			// 	},
+			// 	{
+			// 		title: '四六级训练营|考不过全额退',
+			// 		desc: '适用于12月考试，Care服务 考不过全额退',
+			// 		src: require('../../../assets/img/course/B72EB3CE4F9D30D577332122027C5B5E.png'),
+			// 		price1: '140',
+			// 		price2: '199'
+			// 	},
+			// 	{
+			// 		title: 'ALL编程| Python体验课',
+			// 		desc: '零基础学编程，每天20分钟，边学边练,闯关式学习高效有趣。',
+			// 		src: require('../../../assets/img/course/7F8D1A3C1ACAAE51B4226067C6C6C0CF.png'),
+			// 		price1: '6.9',
+			// 		price2: '129'
+			// 	}
+			// ]
 		};
 	},
 	props:[

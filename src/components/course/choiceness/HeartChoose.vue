@@ -34,40 +34,41 @@
 export default {
 	data() {
 		return {
-			shopp: [
-				{
-					src: require('../../../assets/img/course/E8AF7139B15D6D5F1614817F5523E205.png'),
-					desc: '考研7天训练营|百日冲刺，助你一臂之力',
-					free: true,
-					tag:false,
-					price1: '',
-					price2: ''
-				},
-				{
-					src: require('../../../assets/img/course/11C763A98CBD4E411FB4DF957AB1DD46.png'),
-					desc: '考研英语训练营| - 站式学齐，来得及!',
-					free: false,
-					tag:true,
-					price1: 999,
-					price2: 1199
-				},
-				{
-					src: require('../../../assets/img/course/42B8D3CCEF7C87FCC9FB5A3BB0157667.png'),
-					desc: '考研7天训练营|百日冲刺，助你一臂之力',
-					free: false,
-					tag:true,
-					price1: 999,
-					price2: 199
-				},
-				{
-					src: require('../../../assets/img/course/07BD031DF5E34952CB29AD732CF8FBED.png'),
-					desc: '考研英语训练营| - 站式学齐，来得及!',
-					free: false,
-					tag:true,
-					price1: 999,
-					price2: 199
-				}
-			]
+			// 假数据
+			// shopp: [
+			// 	{
+			// 		src: require('../../../assets/img/course/E8AF7139B15D6D5F1614817F5523E205.png'),
+			// 		desc: '考研7天训练营|百日冲刺，助你一臂之力',
+			// 		free: true,
+			// 		tag:false,
+			// 		price1: '',
+			// 		price2: ''
+			// 	},
+			// 	{
+			// 		src: require('../../../assets/img/course/11C763A98CBD4E411FB4DF957AB1DD46.png'),
+			// 		desc: '考研英语训练营| - 站式学齐，来得及!',
+			// 		free: false,
+			// 		tag:true,
+			// 		price1: 999,
+			// 		price2: 1199
+			// 	},
+			// 	{
+			// 		src: require('../../../assets/img/course/42B8D3CCEF7C87FCC9FB5A3BB0157667.png'),
+			// 		desc: '考研7天训练营|百日冲刺，助你一臂之力',
+			// 		free: false,
+			// 		tag:true,
+			// 		price1: 999,
+			// 		price2: 199
+			// 	},
+			// 	{
+			// 		src: require('../../../assets/img/course/07BD031DF5E34952CB29AD732CF8FBED.png'),
+			// 		desc: '考研英语训练营| - 站式学齐，来得及!',
+			// 		free: false,
+			// 		tag:true,
+			// 		price1: 999,
+			// 		price2: 199
+			// 	}
+			// ]
 		};
 	},
 	props:[
