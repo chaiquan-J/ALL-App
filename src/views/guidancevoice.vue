@@ -48,58 +48,58 @@ export default {
 		.dialogue_box {
 			height: auto;
 			width: auto;
-			margin-left: 27px;
+			margin-left: 54px;
 
 			.box_one {
-				height: 97.5px;
-				width: 306.5px;
+				height: 195px;
+				width: 613px;
 				background: #f9fafb;
-				border-radius: 6px;
+				border-radius: 12px;
 				box-shadow: 0px 0px 1px #e2e4ea;
-				margin-bottom: 34.5px;
-				margin-top: 131.5px;
+				margin-bottom: 69px;
+				margin-top: 303px;
 
 				span {
 					display: block;
 					height: auto;
-					width: 255px;
+					width: 510px;
 					font-family: 'PingFangSC-Regular';
-					font-size: 15px;
+					font-size: 30px;
 					color: #41485d;
 					text-align: left;
-					line-height: 23px;
-					margin-left: 21px;
-					padding-top: 17px;
+					line-height: 46px;
+					margin-left: 42px;
+					padding-top: 34px;
 				}
 			}
 
 			.box_two {
-				height: 77px;
-				width: 198.5px;
+				height: 154px;
+				width: 397px;
 				background: #f9fafb;
-				border-radius: 6px;
+				border-radius: 12px;
 				box-shadow: 0px 0px 1px #e2e4ea;
-				font-size: 15px;
+				font-size: 30px;
 				font-family: 'PingFangSC-Regular';
 				display: flex;
 				flex-direction: column;
 				align-items: flex-start;
 
 				span:nth-child(1) {
-					margin-top: 12.5px;
-					margin-left: 21px;
+					margin-top: 30px;
+					margin-left: 42px;
 				}
 
 				span:nth-child(2) {
 					display: flex;
 					align-items: center;
-					margin-left: 21px;
-					margin-top: 10px;
+					margin-left: 42px;
+					margin-top: 20px;
 
 					.icon {
-						height: 18px;
-						width: 20.5px;
-						margin-left: 10px;
+						height: 36px;
+						width: 41px;
+						margin-left: 20px;
 						
 						img{
 							height: 100%;
@@ -116,26 +116,26 @@ export default {
 			display: flex;
 			align-items: flex-start;
 			position: absolute;
-			left: 27px;
-			bottom: 25px;
+			left: 54px;
+			bottom: 50px;
 
 			.skip {
-				height: 62.5px;
-				width: 62.5px;
+				height: 125px;
+				width:125px;
 				background: #f9fafb;
-				line-height: 62.5px;
-				font-size: 15px;
+				line-height: 125px;
+				font-size: 30px;
 				font-family: 'PingFangSC-Regular';
 				color: #143599;
 				box-shadow: 0px 0px 1px #e2e4ea;
-				border-radius: 50px;
+				border-radius: 100px;
 			}
 
 			.voice_btn {
-				height: 57.5px;
-				width: 37px;
+				height: 115px;
+				width: 74px;
 				// background: #2f86f6;
-				margin-left: 85px;
+				margin-left: 165px;
 				
 				img{
 					height: 100%;

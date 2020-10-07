@@ -21,7 +21,7 @@
 			<div class="nav_two">
 				<div class="content">
 					<template v-for="(item, index) in nav_two">
-						<div class="cont_box">
+						<div class="cont_box" @click="skipPage(item.to)">
 							<div class="icon"><img :src="item.icon" alt="" /></div>
 							<span>{{ item.text }}</span>
 						</div>
@@ -83,19 +83,23 @@ export default {
 			nav_two: [
 				{
 					text: '四六级',
-					icon: require('../assets/icon/CET.png')
+					icon: require('../assets/icon/CET.png'),
+					to:'growup'
 				},
 				{
 					text: '成长计划',
-					icon: require('../assets/icon/plan.png')
+					icon: require('../assets/icon/plan.png'),
+					to:'growup'
 				},
 				{
 					text: '打卡挑战',
-					icon: require('../assets/icon/challenge.png')
+					icon: require('../assets/icon/challenge.png'),
+					to:'growup'
 				},
 				{
 					text: '每日一句',
-					icon: require('../assets/icon/sign.png')
+					icon: require('../assets/icon/sign.png'),
+					to:'growup'
 				}
 			],
 			nav_three: [
@@ -152,7 +156,12 @@ export default {
 			]
 		};
 	},
-	methods: {},
+	methods: {
+		skipPage(to){
+			// console.log(to)
+			this.$router.push(to)
+		}
+	},
 	components: {
 		TabBar,
 		Card

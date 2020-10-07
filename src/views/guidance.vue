@@ -76,7 +76,7 @@ export default {
 		// position: relative;
 
 		.bg_color {
-			max-width: 375px; //按一倍图适配
+			max-width: 750px; //按一倍图适配
 			overflow: hidden;
 			height: 100%;
 			position: absolute;
@@ -90,13 +90,13 @@ export default {
 		.dialogue_box {
 			height: auto;
 			width: auto;
-			margin-left: 25.5px;
+			margin-left: 51px;
 			position: relative;
-			top: 119.5px;
+			top: 279px;
 
 			.spirit {
-				height: 32px;
-				width: 40px;
+				height: 64px;
+				width: 80px;
 				
 				img {
 					height: 100%;
@@ -105,26 +105,26 @@ export default {
 			}
 
 			.dialogue {
-				height: 46.5px;
-				width: 281.5px;
+				height: 93px;
+				width: 563px;
 				border-radius: 8px;
 				box-shadow: 0px 0px 1.5px #e2e4ea;
 				display: flex;
 				align-items: center;
 				justify-content: center;
 				font-family: 'PingFangSC-Regular';
-				font-size: 13px;
+				font-size: 26px;
 				color: #41485d;
-				margin-top: 26px;
+				margin-top: 52px;
 			}
 		}
 
 		.profession_btn {
-			width: 331.5px;
-			height: 87.5px;
+			width: 663px;
+			height: 175px;
 			margin: 0 auto;
 			position: absolute;
-			bottom: 65.5px;
+			bottom: 131px;
 			left: 0;
 			right: 0;
 			display: flex;
@@ -133,25 +133,25 @@ export default {
 			align-content: space-between;
 
 			.btn {
-				height: 34.5px;
-				width: 96px;
-				border-radius: 26px;
+				height: 69px;
+				width: 193px;
+				border-radius: 53px;
 				background-color: #f9fafb;
 				box-shadow: 0px 0px 1.5px #e2e4ea;
-				line-height: 34.5px;
+				line-height: 69px;
 				color: #41485d;
 				font-family: 'PingFangSC-Regular';
-				font-size: 13px;
+				font-size: 26px;
 			}
 		}
 
 		.purpose_btn {
-			width: 331.5px;
-			height: 142.5px;
+			width: 663px;
+			height: 287px;
 			// background-color: #eee;
 			margin: 0 auto;
 			position: absolute;
-			bottom: 65.5px;
+			bottom: 122px;
 			left: 0;
 			right: 0;
 			display: flex;
@@ -160,36 +160,36 @@ export default {
 			align-content: space-between;
 
 			.btn {
-				height: 34.5px;
-				width: 96px;
-				border-radius: 26px;
+				height: 69px;
+				width: 193px;
+				border-radius: 53px;
 				background-color: #f9fafb;
 				box-shadow: 0px 0px 1.5px #e2e4ea;
-				line-height: 34.5px;
+				line-height: 69px;
 				color: #41485d;
 				font-family: 'PingFangSC-Regular';
-				font-size: 13px;
+				font-size: 26px;
 			}
 		}
 
 		.study_btn {
-			height: 36.5px;
-			width: 241px;
+			height: 73px;
+			width: 482px;
 			margin: 0 auto;
 			position: absolute;
-			bottom: 10.5px;
+			bottom: 21px;
 			left: 0;
 			right: 0;
 
 			.btn {
 				height: 100%;
 				width: 100%;
-				border-radius: 26px;
+				border-radius: 53px;
 				background-color: #0079fe00;
 				border-color: #e2e4ea;
 				color: #41485d;
 				font-family: 'PingFangSC-Regular';
-				font-size: 13px;
+				font-size: 26px;
 			}
 		}
 	}

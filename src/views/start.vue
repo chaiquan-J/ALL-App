@@ -43,7 +43,7 @@ export default {
 		align-items: center;
 
 		.bg_color {
-			max-width: 375px; //按一倍图适配
+			max-width: 750px; //按一倍图适配
 			overflow: hidden;
 			height: 100%;
 			position: absolute;
@@ -58,41 +58,41 @@ export default {
 			height: auto;
 			width: 100%;
 			position: relative;
-			top: 139.5px;
+			top: 319px;
 
 			.text {
-				height: 147px;
-				width: 15px;
+				height: 348px;
+				width: 30px;
 				font-family: 'PingFangSC-Regular';
-				font-size: 18px;
+				font-size: 36px;
 				color: #111a34;
 				letter-spacing: 0;
-				line-height: 29px;
+				line-height: 58px;
 				margin: 0 auto;
 			}
 
 			.logo {
-				height: 60px;
-				width: 60px;
+				height: 120px;
+				width: 120px;
 				border-radius: 13px;
 				margin: 0 auto;
-				margin-top: 122px;
+				margin-top: 244px;
 
 				img {
-					height: 60px;
-					width: 60px;
+					height: 100%;
+					width: 100%;
 				}
 			}
 
 			.title {
-				height: 25px;
-				width: 33px;
+				height: 50px;
+				width: 66px;
 				font-family: 'PingFangSC-Regular';
-				font-size: 18px;
+				font-size: 36px;
 				color: #111a34;
 				letter-spacing: 0;
 				margin: 0 auto;
-				margin-top: 45.5px;
+				margin-top: 91px;
 			}
 		}
 	}
